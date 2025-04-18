@@ -60,93 +60,126 @@
 ## Contenido
 #### Tabla de contenidos
 
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de los integrantes del equipo](#112-perfiles-de-los-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+- [VibeFit](#vibefit)
+- [UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS](#universidad-peruana-de-ciencias-aplicadas)
+    - [Carrera: Ingeniería de Software](#carrera-ingeniería-de-software)
+    - [Ciclo: 5° ciclo](#ciclo-5-ciclo)
+    - [Curso: Aplicaciones Web](#curso-aplicaciones-web)
+    - [Sección: 1ASI0730](#sección-1asi0730)
+    - [Profesor: Hugo Allan Mori Paiva](#profesor-hugo-allan-mori-paiva)
+  - [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [Integrantes:](#integrantes)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [https://github.com/RamiroGuzmanCh/AplicacionesWeb-4380](#httpsgithubcomramiroguzmanchaplicacionesweb-4380)
+  - [Contenido](#contenido)
+      - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [1.1. Startup Profile](#11-startup-profile)
+      - [1.1.1. Descripción de la startup](#111-descripción-de-la-startup)
+      - [1.1.2. Perfiles de los integrantes del equipo](#112-perfiles-de-los-integrantes-del-equipo)
+      - [**Muñoz Vilcapoma Mauricio – Ingeniería de Software – U202217212**](#muñoz-vilcapoma-mauricio--ingeniería-de-software--u202217212)
+      - [**Ramiro Alexander Guzman Chavez – Ingeniería de Software – U202217062**](#ramiro-alexander-guzman-chavez--ingeniería-de-software--u202217062)
+      - [**Farid Sebastian Briceño De La Cruz – Ingeniería de Software – U20211F211**](#farid-sebastian-briceño-de-la-cruz--ingeniería-de-software--u20211f211)
+      - [**Miguel Angel Gómez Hurtado – Ingeniería de Software – U202220294**](#miguel-angel-gómez-hurtado--ingeniería-de-software--u202220294)
+      - [**Diego Rolin Acuña Tomas – Ingeniería de Software – u202221436**](#diego-rolin-acuña-tomas--ingeniería-de-software--u202221436)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [1. Adultos jóvenes ocupados (25 - 40 años)](#1-adultos-jóvenes-ocupados-25---40-años)
+    - [2. Jóvenes universitarios saludables en formación (18 - 24 años)](#2-jóvenes-universitarios-saludables-en-formación-18---24-años)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+    - [a) Freeletics](#a-freeletics)
+    - [b) Fitbod](#b-fitbod)
+    - [c) MyFitnessPal (Under Armour)](#c-myfitnesspal-under-armour)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [Análisis SWOT](#análisis-swot)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+        - [1. **Diferenciación Básica pero Clave**](#1-diferenciación-básica-pero-clave)
+        - [2. **Enfoque en Nichos Específicos**](#2-enfoque-en-nichos-específicos)
+        - [3. **Alianzas de Bajo Costo**](#3-alianzas-de-bajo-costo)
+      - [⚡ **Acciones por Competidor (Enfoque Práctico)**](#-acciones-por-competidor-enfoque-práctico)
+  - [2.2 Entrevistas](#22-entrevistas)
+    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [Segmento: Adultos jóvenes ocupados (25 - 40 años)](#segmento-adultos-jóvenes-ocupados-25---40-años)
+      - [**Principales:**](#principales)
+    - [Segmento: Jóvenes universitarios saludables en formación (18 - 24 años)](#segmento-jóvenes-universitarios-saludables-en-formación-18---24-años)
+      - [**Principales:**](#principales-1)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.7.2. Class Dictionary](#472-class-dictionary)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint n](#52x-sprint-n)
-      - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
-      - [5.2.X.2. Aspect Leaders and Collaborators](#52x2-aspect-leaders-and-collaborators)
-      - [5.2.X.3. Sprint Backlog n](#52x3-sprint-backlog-n)
-      - [5.2.X.4. Development Evidence for Sprint Review](#52x4-development-evidence-for-sprint-review)
-      - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
-      - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
-      - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
-      - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
+  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [4.1. Style Guidelines](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.2. Information Architecture](#42-information-architecture)
+      - [4.2.1. Organization Systems](#421-organization-systems)
+      - [4.2.2. Labeling Systems](#422-labeling-systems)
+      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.4. Searching Systems](#424-searching-systems)
+      - [4.2.5. Navigation Systems](#425-navigation-systems)
+    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+      - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+      - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+      - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+      - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+      - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+      - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+      - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.7.2 Class Dictionary](#472-class-dictionary)
+      - [4.8 Database Design](#48-database-design)
+      - [4.8.1. Database Diagram](#481-database-diagram)
+  - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Software Configuration Management](#51-software-configuration-management)
+      - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [5.1.2. Source Code Management](#512-source-code-management)
+      - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+      - [5.2.X. Sprint n](#52x-sprint-n)
+        - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
+        - [5.2.X.2. Aspect Leaders and Collaborators](#52x2-aspect-leaders-and-collaborators)
+        - [5.2.X.3. Sprint Backlog n](#52x3-sprint-backlog-n)
+        - [5.2.X.4. Development Evidence for Sprint Review](#52x4-development-evidence-for-sprint-review)
+        - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
+        - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
+        - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
+        - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+      - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
+  - [Conclusiones](#conclusiones)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Video About-the-Team](#video-about-the-team)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -550,78 +583,68 @@ Los segmentos considerados son:
 
 #### 2.3.5. As-is Scenario Mapping
 
+**Jóvenes Profesionales Urbanos**
+Esta sección presenta el As-Is Scenario Mapping de jóvenes profesionales que buscan mejorar su salud mediante entrenamiento y dieta. A partir de una lluvia de ideas, el equipo identificó las etapas clave de su experiencia, considerando acciones, pensamientos y emociones. El mapeo resalta aspectos positivos, dificultades y áreas a investigar para optimizar su recorrido.
+
+  <p align="center">
+  <img src="./assets/as-is1.jpg" alt="asis1"/>
+
+**Jóvenes Universitarios Saludables en Formación**
+Esta sección presenta el As-Is Scenario Mapping de jóvenes universitarios que buscan mejorar su rendimiento deportivo o apariencia física mediante entrenamiento y dieta. El equipo identificó las etapas clave de su experiencia, incluyendo acciones, pensamientos y emociones. El mapeo revela aciertos, dificultades y aspectos que requieren mayor análisis, sirviendo como base para mejorar su proceso.
+
+  <p align="center">
+  <img src="./assets/as-is2.jpg" alt="asis2"/>
+
+
+
+
 ### 2.4. Ubiquitous Language
+
+| Termino | Significado dentro del dominio de la app       |
+|---------|-------------|
+| Usuario ocupado | Persona entre 25 y 40 años con poco tiempo libre, que busca mejorar su salud de forma eficiente.|
+| Universitario saludable | Joven entre 18 y 24 años que busca mejorar su físico o rendimiento deportivo con hábitos saludables.|
+|Plan personalizado| Rutina de ejercicios y plan nutricional adaptado a los objetivos, tiempo disponible y nivel del usuario.|
+|Adaptabilidad|	Capacidad de la app para ajustarse dinámicamente al contexto y cambios del usuario (tiempo, ánimo, progreso).|
+|Gamificación	|Elementos lúdicos en la app como logros, niveles, desafíos o insignias que fomentan la constancia.
+|
+|Plan Nutricional Express	|Menús simples, rápidos y accesibles, especialmente diseñados para usuarios con poco tiempo o recursos.|
+|Workfrom Fitness|	Entrenamientos breves enfocados en personas que trabajan desde casa (pausas activas, estiramientos, etc.).|
+|Freemium	|Modelo de negocio en el que la app ofrece una versión gratuita básica, con opción a pagar por funcionalidades premium.
+|
+|Acompañamiento constante|	Función que asegura que el usuario sienta seguimiento y apoyo continuo, ya sea mediante IA, notificaciones o comunidad.|
+|Plan flexible	|Rutina o dieta que puede modificarse según el día, el estado de ánimo o el tiempo disponible del usuario.
+|
+|Comunidad	|Espacio dentro de la app donde los usuarios pueden interactuar, compartir logros y participar en desafíos.
+|
+|Retos semanales	|Micro objetivos o desafíos dentro de la app que incentivan el uso frecuente y construyen hábito.
+|
+|Bienestar integral	|Concepto que combina salud física, mental y emocional en la propuesta de valor de la app.
+|
+|Tracking	|Registro y seguimiento de actividad física, alimentación, sueño, o estado de ánimo del usuario.
+|
+|Fit Journey	|Camino del usuario desde su punto de partida hasta sus metas de bienestar, visualizado dentro de la app.
+|
+
 
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
 
+**Jóvenes Profesionales Urbanos**
+En esta sección se presenta el To-Be Scenario Mapping para el segmento de Jóvenes Profesionales Urbanos. El equipo llevó a cabo una fase de preparación y lluvia de ideas para definir las etapas clave de una experiencia mejorada al buscar rutinas de ejercicio y planes alimenticios enfocados en el bienestar integral. Este mapeo compara el escenario actual (As-Is) con el escenario ideal (To-Be), destacando los cambios que pueden mejorar las acciones, pensamientos y emociones del usuario, con el objetivo de brindar una experiencia más útil, motivadora y personalizada.
+
+  <p align="center">
+  <img src="./assets/to-be1.jpg" alt="tobe1"/>
+
+
+**Jóvenes Universitarios Saludables en Formación**
+Esta sección presenta el To-Be Scenario Mapping para el perfil de Jóvenes Universitarios Saludables en Formación. A través de un proceso de análisis y lluvia de ideas, se definieron las etapas de una experiencia mejorada al buscar rutinas de entrenamiento y planes alimenticios orientados a mejorar su rendimiento deportivo o apariencia física. La comparación con el escenario actual (As-Is) permite identificar oportunidades para optimizar sus acciones, pensamientos y emociones, brindando una experiencia más efectiva y motivadora.
+
+  <p align="center">
+  <img src="./assets/to-be2.jpg" alt="tobe2"/>
+
 ### 3.2. User Stories
-
-| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| **US01.1** | Registro básico | Como nuevo usuario, quiero registrarme con email y contraseña, para acceder a la plataforma | 1. **Dado que** el usuario ingresa un email con formato válido y una contraseña de al menos 8 caracteres (con 1 mayúscula y 1 número)<br>**Cuando** hace clic en "Registrarse"<br>**Entonces** el sistema envía un email de verificación con un enlace válido por 24 horas<br><br>2. **Dado que** el usuario ingresa un email ya registrado<br>**Cuando** intenta registrarse<br>**Entonces** el sistema muestra el mensaje "Este email ya está en uso" | EP01 |
-| **US01.2** | Registro completo | Como usuario, quiero completar mi perfil inicial, para obtener recomendaciones personalizadas | 1. **Dado que** el usuario ingresa un peso de 70kg y una altura de 170cm<br>**Cuando** guarda la información<br>**Entonces** el sistema calcula un IMC de 24.2 y sugiere 3 rutinas de tipo cardio<br><br>2. **Dado que** el usuario deja el campo "altura" vacío<br>**Cuando** intenta guardar<br>**Entonces** el sistema muestra un mensaje indicando que el campo es obligatorio | EP01 |
-| **US01.3** | Login social | Como usuario, quiero acceder con redes sociales, para agilizar mi registro | 1. **Dado que** el usuario selecciona "Continuar con Google" y acepta los permisos<br>**Cuando** completa el proceso<br>**Entonces** el sistema importa automáticamente su nombre y foto de perfil<br><br>2. **Dado que** el usuario cierra el popup de login<br>**Cuando** reintenta dentro de los 2 minutos siguientes<br>**Entonces** el sistema mantiene la sesión de Google activa | EP01 |
-| **US01.4** | Verificación email | Como usuario, quiero confirmar mi cuenta, para garantizar seguridad | 1. **Dado que** el usuario hace clic en el enlace de verificación dentro de las 24 horas<br>**Cuando** completa el proceso<br>**Entonces** el sistema activa su cuenta y lo redirige al dashboard principal<br><br>2. **Dado que** han pasado más de 24 horas desde el envío del email de verificación<br>**Cuando** el usuario intenta usar el enlace<br>**Entonces** el sistema muestra un mensaje indicando que el enlace ha expirado | EP01 |
-| **US01.5** | Perfil de asesor | Como entrenador, quiero registrarme como profesional, para ofrecer mis servicios | 1. **Dado que** el asesor sube un archivo PDF válido como certificación<br>**Cuando** completa el formulario de registro<br>**Entonces** el sistema marca su perfil como "En revisión"<br><br>2. **Dado que** el asesor intenta subir un archivo con formato no permitido (.exe)<br>**Cuando** intenta guardar<br>**Entonces** el sistema muestra un mensaje indicando los formatos aceptables | EP01 |
-| **US01.6** | Actualización objetivos | Como usuario, quiero modificar mis metas, para ajustar mi plan | 1. **Dado que** el usuario cambia su objetivo a "ganar músculo"<br>**Cuando** confirma los cambios<br>**Entonces** el sistema ajusta sus requerimientos calóricos con un incremento del 15%<br><br>2. **Dado que** el usuario tiene una asesoría activa<br>**Cuando** modifica sus objetivos<br>**Entonces** el sistema notifica automáticamente a su asesor asignado | EP01 |
-| **TS01** | API Autenticación | Como desarrollador, quiero integrar login/registro | 1. **Dado que** se realiza una petición POST a /api/register con credenciales válidas<br>**Cuando** el servidor procesa la solicitud<br>**Entonces** responde con un código 201 y un token JWT válido<br><br>2. **Dado que** se realiza una petición con un email en formato inválido<br>**Cuando** el servidor valida los datos<br>**Entonces** responde con un código 400 y un mensaje de error descriptivo | EP01 |
-
-| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| **US02.1** | Generación de plan nutricional | Como usuario, quiero un plan de comidas semanal, para mantener una dieta saludable | 1. **Dado que** el usuario tiene registradas sus preferencias (vegetariano, sin gluten)<br>**Cuando** solicita un nuevo plan nutricional<br>**Entonces** el sistema genera 21 recetas (3 diarias) que cumplen con sus restricciones<br><br>2. **Dado que** el usuario selecciona "alto en proteínas"<br>**Cuando** se genera el plan<br>**Entonces** cada comida contiene mínimo 30g de proteína | EP02 |
-| **US02.2** | Lista de compras | Como usuario, quiero una lista de ingredientes organizada, para facilitar mis compras | 1. **Dado que** el plan nutricional está generado<br>**Cuando** el usuario accede a la sección de compras<br>**Entonces** muestra los ingredientes agrupados por categoría (lácteos, granos, etc.)<br><br>2. **Dado que** existe un ingrediente repetido en múltiples recetas<br>**Cuando** se genera la lista<br>**Entonces** consolida las cantidades en un solo item | EP02 |
-| **US02.3** | Sustitución de ingredientes | Como usuario, quiero reemplazar alimentos que no me gustan, para personalizar mi plan | 1. **Dado que** el usuario selecciona "no quinua"<br>**Cuando** regenera el plan<br>**Entonces** todas las recetas usan kiwicha o cañihua como sustituto<br><br>2. **Dado que** se sustituye un ingrediente principal<br>**Cuando** se actualiza el plan<br>**Entonces** el sistema recalcula automáticamente los valores nutricionales | EP02 |
-| **US02.4** | Información nutricional | Como usuario, quiero ver detalles nutricionales, para controlar mi ingesta | 1. **Dado que** el usuario visualiza una receta<br>**Cuando** abre la sección nutricional<br>**Entonces** muestra desglose de macros (proteínas: 30g, carbohidratos: 45g, grasas: 10g)<br><br>2. **Dado que** el usuario sigue una dieta de 2000 kcal<br>**Cuando** revisa el plan diario<br>**Entonces** la suma total no excede ±5% del objetivo | EP02 |
-| **TS02** | API Planes Nutricionales | Como desarrollador, quiero consumir el servicio de planes | 1. **Dado que** se envía un request GET /api/meal-plans con parámetros válidos<br>**Cuando** el servidor responde<br>**Entonces** retorna un JSON con 7 días de comidas y sus nutrientes<br><br>2. **Dado que** se solicita un plan sin parámetros requeridos<br>**Cuando** el servidor valida<br>**Entonces** responde con error 400 y lista de campos faltantes | EP02 |
-
-| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| **US03.1** | Generación de rutinas | Como usuario, quiero una rutina de ejercicios personalizada, para entrenar eficientemente | 1. **Dado que** el usuario especifica "nivel: principiante" y "objetivo: bajar grasa"<br>**Cuando** genera su rutina<br>**Entonces** el sistema sugiere 3 días/semana de cardio (20-30 min) y 2 de fuerza<br><br>2. **Dado que** el usuario indica "espacio: pequeño"<br>**Cuando** visualiza los ejercicios<br>**Entonces** solo muestra opciones que requieren ≤1m² | EP03 |
-| **US03.2** | Progresión automática | Como usuario, quiero que mi rutina se ajuste a mi progreso, para mantener el desafío | 1. **Dado que** el usuario completa >90% de sus sesiones por 2 semanas<br>**Cuando** el sistema analiza su desempeño<br>**Entonces** aumenta la intensidad en 10-15% (peso/repeticiones)<br><br>2. **Dado que** el usuario falla en completar 3+ ejercicios consecutivos<br>**Cuando** se regenera la rutina<br>**Entonces** sugiere ejercicios alternativos con menor dificultad | EP03 |
-| **US03.3** | Demostraciones de ejercicios | Como principiante, quiero ver cómo realizar cada ejercicio correctamente, para evitar lesiones | 1. **Dado que** el usuario selecciona un ejercicio<br>**Cuando** abre los detalles<br>**Entonces** muestra un video con: ángulos múltiples, errores comunes y modificaciones<br><br>2. **Dado que** el ejercicio requiere equipamiento<br>**Cuando** se reproduce la demo<br>**Entonces** incluye alternativa con materiales domésticos (ej: botellas como pesas) | EP03 |
-| **US03.4** | Registro de sesiones | Como usuario, quiero marcar mis ejercicios completados, para llevar un historial | 1. **Dado que** el usuario finaliza una sesión<br>**Cuando** marca "completado"<br>**Entonces** el sistema registra: fecha, ejercicios, y tiempo total<br><br>2. **Dado que** salta un ejercicio<br>**Cuando** guarda el progreso<br>**Entonces** pregunta "¿Quieres reprogramarlo para hoy o saltarlo definitivamente?" | EP03 |
-| **TS03** | API de Rutinas | Como desarrollador, quiero integrar el generador de rutinas | 1. **Dado que** se llama a /api/routines con {level: "beginner", goal: "strength"}<br>**Cuando** el servidor responde<br>**Entonces** retorna JSON con ejercicios que priorizan grupos musculares clave<br><br>2. **Dado que** se solicita una rutina sin parámetros obligatorios<br>**Cuando** el servidor valida<br>**Entonces** responde 422 con {error: "Missing required field: 'goal'"} | EP03 |
-
-| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| **US04.1** | Registro de métricas físicas | Como usuario, quiero registrar mis medidas corporales, para monitorear mi progreso | 1. **Dado que** el usuario ingresa peso=85kg y cintura=90cm<br>**Cuando** guarda los datos<br>**Entonces** el sistema calcula automáticamente el IMC y porcentaje de grasa estimado<br><br>2. **Dado que** el usuario intenta registrar peso=0kg<br>**Cuando** guarda<br>**Entonces** el sistema muestra "El peso debe estar entre 30-300kg" | EP04 |
-| **US04.2** | Visualización de progreso | Como usuario, quiero ver gráficos de mi evolución, para motivarme | 1. **Dado que** el usuario tiene 3+ registros semanales de peso<br>**Cuando** accede a "Mi Progreso"<br>**Entonces** muestra gráfico de línea con tendencia y promedio móvil<br><br>2. **Dado que** el usuario selecciona "Últimos 30 días"<br>**Cuando** visualiza el dashboard<br>**Entonces** resalta hitos clave (ej: "Mayor pérdida: -2kg el 15/03") | EP04 |
-| **US04.3** | Recomendaciones automáticas | Como usuario, quiero sugerencias basadas en mis resultados, para mejorar mi rendimiento | 1. **Dado que** el usuario pierde >3kg en 1 semana<br>**Cuando** abre la app<br>**Entonces** sugiere "¿Quieres ajustar tu plan para evitar pérdida muscular?"<br><br>2. **Dado que** el usuario estanca su peso por 2 semanas<br>**Cuando** revisa su progreso<br>**Entonces** recomienda "Consulta con un nutricionista" con CTA directo | EP04 |
-| **US04.4** | Reporte semanal | Como usuario, quiero un resumen de mi actividad, para mantenerme accountable | 1. **Dado que** es domingo a las 20:00<br>**Cuando** el sistema genera el reporte<br>**Entonces** incluye: % objetivos cumplidos, comparación semana anterior y sugerencias<br><br>2. **Dado que** el usuario completa <50% de sus entrenamientos<br>**Cuando** recibe el reporte<br>**Entonces** destaca "Te faltaron 3 sesiones vs meta semanal" | EP04 |
-| **TS04** | API de Progreso | Como desarrollador, quiero integrar el módulo de seguimiento | 1. **Dado que** se envía POST /api/progress con {weight, date}<br>**Cuando** los datos son válidos<br>**Entonces** responde 201 y almacena la entrada en la base de datos<br><br>2. **Dado que** se solicita GET /api/progress?range=last_month<br>**Cuando** existe historial<br>**Entonces** retorna JSON con {dates[], values[], avg} | EP04 |
-
-| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| **US05.1** | Búsqueda de asesores | Como usuario, quiero encontrar profesionales cerca de mi ubicación, para acceder a asesorías presenciales | 1. **Dado que** el usuario activa los permisos de ubicación<br>**Cuando** busca "nutricionistas"<br>**Entonces** el sistema prioriza asesores en un radio de 10km<br><br>2. **Dado que** el usuario no comparte su ubicación<br>**Cuando** realiza una búsqueda<br>**Entonces** muestra asesores filtrados por especialidad con indicador "Distancia no disponible" | EP05 |
-| **US05.2** | Perfiles de asesores | Como usuario, quiero ver información detallada de cada profesional, para tomar decisiones informadas | 1. **Dado que** el usuario visualiza un perfil de asesor<br>**Cuando** revisa la sección de certificaciones<br>**Entonces** muestra: título profesional, años de experiencia y especialidades<br><br>2. **Dado que** un asesor tiene 10+ reseñas<br>**Cuando** se carga su perfil<br>**Entonces** calcula y muestra el rating promedio (1-5 estrellas) | EP05 |
-| **US05.3** | Reserva de sesiones | Como usuario, quiero agendar citas con asesores, para programar mis entrenamientos/nutrición | 1. **Dado que** el usuario selecciona un horario disponible<br>**Cuando** confirma la reserva<br>**Entonces** bloquea ese slot en el calendario del asesor<br><br>2. **Dado que** el usuario intenta agendar en horario no laboral<br>**Cuando** selecciona la fecha<br>**Entonces** muestra "Este profesional no atiende los domingos" | EP05 |
-| **US05.4** | Sistema de pagos | Como usuario, quiero pagar sesiones de forma segura, para acceder a los servicios | 1. **Dado que** el usuario selecciona "Pagar con Yape"<br>**Cuando** confirma el monto<br>**Entonces** genera un QR con el código de pago y número de referencia<br><br>2. **Dado que** el pago no se confirma en 15 minutos<br>**Cuando** el usuario revisa su reserva<br>**Entonces** muestra "Pendiente de pago - Reintentar" | EP05 |
-| **US05.5** | Comunicación integrada | Como usuario, quiero contactar a mi asesor, para resolver dudas rápidamente | 1. **Dado que** el usuario tiene una reserva confirmada<br>**Cuando** accede al chat<br>**Entonces** muestra el historial de mensajes anteriores con ese profesional<br><br>2. **Dado que** el asesor no responde en 24h<br>**Cuando** el usuario envía un mensaje<br>**Entonces** muestra notificación "Respuesta usual en 48h" | EP05 |
-| **TS05** | API de Marketplace | Como desarrollador, quiero integrar el sistema de asesorías | 1. **Dado que** se llama a GET /api/coaches?location=-12.0432,-77.0282<br>**Cuando** hay asesores disponibles<br>**Entonces** retorna JSON ordenado por proximidad (km)<br><br>2. **Dado que** se envía POST /api/bookings sin token de autenticación<br>**Cuando** el servidor valida<br>**Entonces** responde 401 Unauthorized | EP05 |
-
-| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| **US06.1** | Suscripción premium | Como usuario, quiero mejorar a un plan premium, para acceder a funciones exclusivas | 1. **Dado que** el usuario selecciona "Plan Avanzado"<br>**Cuando** completa el pago exitosamente<br>**Entonces** desbloquea: rutinas especializadas y nutricionista virtual<br><br>2. **Dado que** el pago falla por saldo insuficiente<br>**Cuando** reintenta<br>**Entonces** sugiere "Prueba otro método de pago" con opciones alternativas | EP06 |
-| **US06.2** | Pasarela de pagos | Como usuario, quiero pagar con métodos locales, para mayor comodidad | 1. **Dado que** el usuario selecciona "Pagar con Yape"<br>**Cuando** confirma el monto<br>**Entonces** genera QR con referencia única válida por 10min<br><br>2. **Dado que** el QR expira<br>**Cuando** escanea<br>**Entonces** auto-genera un nuevo código sin perder el carrito | EP06 |
-| **US06.3** | Gestión de renovaciones | Como usuario premium, quiero controlar mi suscripción, para administrar gastos | 1. **Dado que** la renovación automática está activa<br>**Cuando** llega la fecha de corte<br>**Entonces** carga el monto y envía voucher por email<br><br>2. **Dado que** el usuario cancela antes del vencimiento<br>**Cuando** finaliza el ciclo<br>**Entonces** mantiene acceso premium hasta la fecha pagada | EP06 |
-| **US06.4** | Acceso diferencial | Como usuario premium, quiero beneficios exclusivos, para sentir valor agregado | 1. **Dado que** el plan incluye "Nutricionista Virtual"<br>**Cuando** accede a su perfil<br>**Entonces** muestra badge "Premium" y chat prioritario<br><br>2. **Dado que** el usuario visita una función restringida<br>**Cuando** no tiene suscripción activa<br>**Entonces** muestra modal "Upgrade requerido" con comparativa de planes | EP06 |
-| **TS06** | API de Pagos | Como desarrollador, quiero procesar transacciones | 1. **Dado que** se recibe un webhook de Culqi con status="paid"<br>**Cuando** se verifica la firma digital<br>**Entonces** activa los beneficios asociados a esa compra<br><br>2. **Dado que** falla la conexión con el banco<br>**Cuando** se intenta cobrar<br>**Entonces** programa reintento automático cada 5min (max 3 veces) | EP06 |
-
-| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| **US07.1** | Recordatorios personalizados | Como usuario, quiero recibir notificaciones inteligentes, para mantener mi disciplina | 1. **Dado que** el usuario suele entrenar a las 7:00 AM<br>**Cuando** es 6:45 AM<br>**Entonces** el sistema envía notificación "¿Listo para tu sesión de hoy?"<br><br>2. **Dado que** el usuario no registra actividad por 3 días<br>**Cuando** abre la app<br>**Entonces** muestra mensaje motivacional + CTA "Reanudar rutina" | EP07 |
-| **US07.2** | Notificaciones de progreso | Como usuario, quiero alertas sobre mis logros, para mantenerme motivado | 1. **Dado que** el usuario completa 5 entrenamientos consecutivos<br>**Cuando** finaliza la última sesión<br>**Entonces** envía badge virtual "Racha de 5 días"<br><br>2. **Dado que** el usuario supera su marca personal en sentadillas<br>**Cuando** sincroniza los datos<br>**Entonces** muestra comparativa: "Nuevo récord: 50kg (antes: 45kg)" | EP07 |
-| **US07.3** | Alertas de asesorías | Como usuario, quiero recordatorios de mis citas programadas, para no olvidarlas | 1. **Dado que** hay una asesoría agendada para hoy a las 17:00<br>**Cuando** son las 16:30<br>**Entonces** envía SMS/email con link directo a la videollamada<br><br>2. **Dado que** el usuario no se conecta 5min después de la hora<br>**Cuando** el asesor inicia la sesión<br>**Entonces** envía notificación push "Tu asesor ya está esperando" | EP07 |
-| **TS07** | API de Notificaciones | Como desarrollador, quiero gestionar envíos automatizados | 1. **Dado que** se llama a POST /api/notifications con {user_id, type="reminder"}<br>**Cuando** los datos son válidos<br>**Entonces** programa el envío y retorna {notification_id, scheduled_time}<br><br>2. **Dado que** el usuario desactiva notificaciones<br>**Cuando** el sistema intenta enviar<br>**Entonces** registra el intento sin enviar y retorna status 204 | EP07 |
-
-| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic ID) |
-|---|---|---|---|---|
-| **US08.1** | Gestión de usuarios | Como administrador, quiero ver y filtrar todos los usuarios registrados, para realizar mantenimientos | 1. **Dado que** el admin ingresa al panel<br>**Cuando** aplica filtros "Fecha: Últimos 30 días" y "Tipo: Asesores"<br>**Entonces** muestra lista paginada con: nombre, email, fecha registro y estado<br><br>2. **Dado que** un usuario viola los términos de servicio<br>**Cuando** el admin selecciona "Suspender cuenta"<br>**Entonces** envía email de notificación y bloquea el acceso inmediatamente | EP08 |
-| **US08.2** | Moderación de contenido | Como administrador, quiero revisar y editar planes nutricionales/entrenamientos, para garantizar calidad | 1. **Dado que** un asesor sube una rutina con ejercicios avanzados<br>**Cuando** el admin la marca como "Para principiantes"<br>**Entonces** notifica al asesor para su revisión<br><br>2. **Dado que** se reporta una receta con ingredientes incorrectos<br>**Cuando** el admin verifica<br>**Entonces** corrige los valores nutricionales y actualiza todas las instancias | EP08 |
-| **US08.3** | Reportes estadísticos | Como administrador, quiero exportar datos de crecimiento, para tomar decisiones estratégicas | 1. **Dado que** el admin selecciona "Reporte Q2 2024"<br>**Cuando** genera el documento<br>**Entonces** descarga CSV con: nuevos usuarios, retención, ingresos y asesorías completadas<br><br>2. **Dado que** hay un pico de cancelaciones<br>**Cuando** se visualiza el dashboard<br>**Entonces** resalta correlación con eventos específicos (ej: cambio en planes premium) | EP08 |
-| **TS08** | API de Administración | Como desarrollador, quiero integrar funcionalidades de backoffice | 1. **Dado que** se llama a DELETE /api/users/{id} con rol=admin<br>**Cuando** el usuario existe<br>**Entonces** desactiva la cuenta y responde 200 (no borra físicamente)<br><br>2. **Dado que** se solicita GET /api/stats?by=month<br>**Cuando** hay datos históricos<br>**Entonces** retorna {month: "2024-06", active_users: 1543, revenue: 25800 PEN} | EP08 |
 
 ### 3.3. Impact Mapping
 
